@@ -71,7 +71,7 @@ html, body {
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; /* Only equal spaces in middle of objects*/
     padding: 3vw 1vw;
 }
 #page2 .elem {
@@ -96,6 +96,11 @@ html, body {
     width: 100%;
     object-fit: cover;
     scale: 1.1;
+}
+
+/* -------------- Page 3 -----------------\ */
+#page3 {
+    min-height: 120vh;
 }
 /* --------------------------------- Responsive -------------------- */
 @media (max-width: 600px) {
@@ -138,5 +143,9 @@ html, body {
     height: 100vh;
     width: 100%; 
     margin-bottom: 3vw;
+}
+#page2 .elem .dets {
+    height: 40px;
+
 }
 }
