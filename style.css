@@ -101,6 +101,18 @@ html, body {
 /* -------------- Page 3 -----------------\ */
 #page3 {
     min-height: 120vh;
+    width: 100%;
+    background-color: #F7F7F7;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.child {
+    height: 55vh;
+    width: 40vw;
+    background-color: red;
+    
 }
 /* --------------------------------- Responsive -------------------- */
 @media (max-width: 600px) {
