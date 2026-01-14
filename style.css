@@ -130,6 +130,58 @@ html, body {
     transform: translate(-50%, -50%) scale(0);
    
 }
+
+/* -------------- Navigation ------------------- */
+#nav {
+    /* height: 100px; */
+    width: 100%;
+    /* background-color: burlywood; */
+    position: fixed;
+    z-index: 99;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#nav #navpart2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+#nav #navpart2 #links a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0 20px;
+}
+#navpart1 {
+
+    height: 82px;
+    overflow: hidden; 
+}
+#navpart1 svg {
+    display: block;
+    
+}
+#links {
+    padding: 10px;
+}
+#icons {
+    padding: 10px;
+}
+#nav #navpart2 #icons i {
+    font-size: 18px;
+    margin: 0 30px ;
+}
+
+
+
 /* --------------------------------- Responsive -------------------- */
 @media (max-width: 600px) {
     #page1 {
