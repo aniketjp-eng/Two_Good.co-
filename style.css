@@ -112,7 +112,7 @@ html, body {
     height: 54vh;
     width: 38vw;
     position: relative;
-     display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     
@@ -228,4 +228,31 @@ html, body {
     height: 40px;
 
 }
+body {
+    /* background-color: aqua;ss */
+}
+#navpart1 {
+    height: 83px;
+    width: 100%;
+    overflow: hidden; 
+    scale: 0.8;
+}
+#nav #navpart2 #links {
+    padding-left: 0;
+}
+#nav #navpart2 #links a {
+    font-size: 9px;
+    margin: 0 0px;
+}
+#nav #navpart2 {
+    gap: 5px;
+}
+#page3 {
+    flex-direction: column;
+}
+.child img {
+
+    scale: 0.75;
+}
+
 }
