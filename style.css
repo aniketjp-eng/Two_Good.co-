@@ -169,6 +169,10 @@ html, body {
     display: block;
     
 }
+#nav #logo2 {
+    height: 70px;
+}
+
 #links {
     padding: 10px;
 }
