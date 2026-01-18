@@ -25,36 +25,38 @@ html, body {
     min-height: 100vh; /* to make full height of the page only one */
     position: relative;
     width: 100%;
-    /* padding: 0 1.55vw;  */
     padding: 0 1vw; 
-    /* padding-top: 25vh; */
     padding-top: 20vh;
+     margin-top: 1vw;
 }
 #page1 h1 {
   font-family: Futura;
   font-size: 15.8vw;
   line-height: 0.85;
   letter-spacing: -0.05em;
-}
 
+}
 
 #video-container {
     height: 100vh;
     width: 100%;
     background-color: grey;
-    position: relative; /* The box moves visually
+    position: relative; 
+    /* The box moves visually
 ✔ The original space is still reserved
 ✔ Other elements do not move into its place*/
- margin-top: 1vw;
+  margin-top: 1vw; 
 
 }
-#video-container video {
+
+
+#video-container img {
     height: 100%;
     width: 100%;
-    object-fit: cover; /* cover the full available parent space*/
+    object-fit: cover; 
+/* cover the full available parent space*/
 }
 #video-container #play {
-    /* padding: 2.2vw 1.5vw; */
     padding: 3vw 2.2vw;
     background-color: black;
     color: #fff;
@@ -101,7 +103,7 @@ html, body {
 
 /* -------------- Page 3 -----------------\ */
 #page3 {
-    min-height: 120vh;
+    min-height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -121,6 +123,8 @@ html, body {
     height: 100%;
 }
 
+
+
 #cursor {
     height: 150px;
     width: 150px;
@@ -133,9 +137,7 @@ html, body {
 
 /* -------------- Navigation ------------------- */
 #nav {
-    /* height: 100px; */
     width: 100%;
-    /* background-color: burlywood; */
     position: fixed;
     z-index: 99;
     padding: 25px;
@@ -171,17 +173,25 @@ html, body {
 }
 #nav #logo2 {
     height: 70px;
+    z-index: -100;
 }
 
 #links {
     padding: 10px;
 }
 #icons {
+    z-index: 100;
     padding: 10px;
+}
+#nav #navpart2 #icons {
+  background-color: #F7F7F7;
+  border-radius: 20px;
 }
 #nav #navpart2 #icons i {
     font-size: 18px;
-    margin: 0 30px ;
+    margin: 0 22px ;
+    position: sticky;
+    
 }
 
 
@@ -243,6 +253,7 @@ body {
 }
 #nav #navpart2 #links {
     padding-left: 0;
+    display: none;
 }
 #nav #navpart2 #links a {
     font-size: 9px;

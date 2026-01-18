@@ -1,7 +1,3 @@
-// const scroll = new LocomotiveScroll({ //smooth scroll 
-//     el: document.querySelector('#main'),
-//     smooth: true
-// });
 function locomotiveAnimation() {
     gsap.registerPlugin(ScrollTrigger);
 
@@ -58,7 +54,6 @@ gsap.to("#navpart2 #links",{
         scrub: 2
     }
 }
-
 )
 }
 navbarAnimation();
