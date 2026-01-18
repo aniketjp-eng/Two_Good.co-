@@ -37,7 +37,7 @@ html, body {
 
 }
 
-#video-container {
+#img-container {
     height: 100vh;
     width: 100%;
     background-color: grey;
@@ -50,13 +50,13 @@ html, body {
 }
 
 
-#video-container img {
+#img-container img {
     height: 100%;
     width: 100%;
     object-fit: cover; 
 /* cover the full available parent space*/
 }
-#video-container #play {
+#img-container #play {
     padding: 3vw 2.2vw;
     background-color: black;
     color: #fff;
@@ -208,12 +208,12 @@ html, body {
         font-size: 15.5vw;
         letter-spacing: -3px;
 }
-#video-container {
+#img-container {
     height: 25vh;
     margin-top: 3vw;
 
  }
- #video-container #play {
+ #img-container #play {
     padding: 9.5vw 7.2vw;
     font-size: 4.5vw;
     position: absolute;

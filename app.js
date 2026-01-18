@@ -58,7 +58,7 @@ gsap.to("#navpart2 #links",{
 }
 navbarAnimation();
 function playBtnAnimation() {
-var videocon = document.querySelector("#video-container");
+var videocon = document.querySelector("#img-container");
 var playbtn = document.querySelector("#play");
 videocon.addEventListener("mouseenter", function () {
  // Animate play button to become visible & normal size
@@ -92,7 +92,7 @@ function loadingCharAnimation(){
     stagger: 0.3  // each h1 starts 0.3s after the previous one
 })
 
-gsap.from("#page1 #video-container", { // Any GSAP animation written directly (not inside an event) runs on page load
+gsap.from("#page1 #img-container", { // Any GSAP animation written directly (not inside an event) runs on page load
     scale: 0.9,
     opacity:0,
     delay:1.3, // wait until text animation is mostly done
