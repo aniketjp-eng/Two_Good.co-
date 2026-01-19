@@ -242,9 +242,7 @@ html, body {
     height: 40px;
 
 }
-body {
-    /* background-color: aqua;ss */
-}
+
 #navpart1 {
     height: 83px;
     width: 100%;
@@ -270,4 +268,28 @@ body {
     scale: 0.75;
 }
 
+
+}
+/* --------------------- */
+.elem .dets {
+     transition: transform 2s ease;
+}
+.elem .dets:hover {
+    height: 250px;
+
+    /* padding-bottom: 250px; */
+    border-radius: 50px;
+    width: 70%;
+    position: absolute;
+    background-color: pink;
+    z-index: 9;
+}
+
+.dets {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.dets a {
+   text-decoration: none;
 }
