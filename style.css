@@ -194,8 +194,39 @@ html, body {
     
 }
 
+#page4 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    font-size: 40px;
+    flex-direction: column;
+    text-align: center;
+}
 
-
+#mid {
+    margin: 50px 0px;
+    width: 100%;
+    height: 200px;
+    font-weight: 900;
+    font-weight: bolder;
+}
+#down button {
+    height: 60px;
+    color: white;
+    min-width: 350px;
+    background-color: #000;
+    font-size:15px ;
+    border-radius: 30px;
+}
+#down .msg {
+    margin-top: 20px;
+}
+#down h3 {
+    font-size: 17px;
+    font-weight: 50;
+}
 /* --------------------------------- Responsive -------------------- */
 @media (max-width: 600px) {
     #page1 {
