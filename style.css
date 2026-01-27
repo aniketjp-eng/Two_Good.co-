@@ -76,6 +76,24 @@ html, body {
     align-items: center;
     justify-content: space-between; /* Only equal spaces in middle of objects*/
     padding: 3vw 1vw;
+    /* flex-direction: column; */
+}
+.qoutes {
+
+    display: flex;
+    height: 50vh;
+    padding: 30px;
+    gap: 100px;
+    
+}
+.qoutes .second {
+    /* background-color: antiquewhite; */
+    padding: 40px 150px;
+    padding-left: 400px;
+}
+.qoutes .first h2 {
+    font-size: 50px;
+    font-weight:900;
 }
 #page2 .elem {
     height: 100%;
