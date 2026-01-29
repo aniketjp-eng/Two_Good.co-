@@ -67,6 +67,8 @@ html, body {
     opacity: 0;
     scale: 0;
 }
+
+
 /* -------------- Page 2 --------------------- */
 #page2 {
     min-height: 100vh;
@@ -74,22 +76,61 @@ html, body {
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Only equal spaces in middle of objects*/
+    justify-content: space-between; 
     padding: 3vw 1vw;
-    /* flex-direction: column; */
+}
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+.qoutes .first h2 {
+    font-family: "Boldonse", system-ui;
+    font-size: 60px;
+    font-weight:900;
+    line-height: 55px;
+}
+#page2 .elem {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.elem .dets {
+    height: 60px;
+    border-radius: 50px;
+    width: 55%;
+    position: absolute;
+    background-color: pink;
+    z-index: 9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     transition: transform 2s ease;
+
+}
+
+.elem .content {
+    background-color: aqua;
+
+}
+#page2 .elem img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    scale: 1.1;
 }
 .qoutes {
     display: flex;
-    height: 50vh;
+     min-height: 50vh;
     padding: 30px;
     gap: 100px;
-    /* box-sizing: border-box; */
     
 }
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 .qoutes .second {
-    background-color: antiquewhite;
-    
-    padding: 50px 120px;
+    padding: 0 75px 75px 75px;
+    max-width: 500px;
+    font-family: "Boldonse", system-ui;
 }
 .qoutes .second  a {
     color: #000;
@@ -98,10 +139,11 @@ html, body {
 }
 .qoutes .second  p {
     margin-bottom: 20px;
-    
+    line-height: 25px;
+
 }
 
-/* Hover animation */
+
 .hover-underline {
   font-size: 2rem;
   color: #ffffff;
@@ -109,12 +151,11 @@ html, body {
   display: inline-block;
 }
 
-/* .hover-underline::after, */
 .hover-underline::before {
   content: '';
   position: absolute;
   width: 100%;
-  height: 2px;
+  height: 1px;
   background: linear-gradient(to right, #ffffff, #000000);
   bottom: -5px;
   left: 0;
@@ -127,43 +168,9 @@ html, body {
   top: 25px;
   transform-origin: left;
 }
-
-/* .hover-underline:hover::after, */
 .hover-underline:hover::before {
   transform: scaleX(1);
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
-.qoutes .first h2 {
-    font-family: "Boldonse", system-ui;
-    font-size: 60px;
-    font-weight:900;
-    line-height: 55px;
-}
-#page2 .elem {
-    height: 100%;
-    width: 31%;
-    overflow: hidden;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.elem .dets {
-    height: 60px;
-    border-radius: 50px;
-    width: 70%;
-    position: absolute;
-    background-color: pink;
-    z-index: 9;
-}
-#page2 .elem img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    scale: 1.1;
-}
-
 /* -------------- Page 3 -----------------\ */
 #page3 {
     min-height: 100vh;
@@ -332,10 +339,7 @@ html, body {
     width: 100%; 
     margin-bottom: 3vw;
 }
-#page2 .elem .dets {
-    height: 40px;
 
-}
 
 #navpart1 {
     height: 83px;
@@ -364,26 +368,26 @@ html, body {
 
 
 }
-/* --------------------- */
-.elem .dets {
-     transition: transform 2s ease;
+
+
+.elem .dets .content {
+    background-color: rgb(184, 136, 41);
+    z-index: 8;
+    
 }
+/* --------------------- */
+
 .elem .dets:hover {
     height: 250px;
 
-    /* padding-bottom: 250px; */
     border-radius: 50px;
-    width: 70%;
+    /* width: 70%; */
     position: absolute;
     background-color: pink;
     z-index: 9;
 }
 
-.dets {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
+
 .dets a {
    text-decoration: none;
 }
