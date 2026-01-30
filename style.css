@@ -274,7 +274,44 @@ html, body {
     flex-direction: column;
     text-align: center;
 }
-
+#page4 .topup {
+    /* background-color: aqua; */
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom:50px ;
+}
+#page4 .topup .carousel {
+     /* background-color: rgb(222, 119, 119); */
+     height: 200px;
+     width: 200px;
+}
+#page4 .topup .carousel p {
+    margin-bottom: 20px ;
+    font-size: 30px;
+}
+#page4 .topup .carousel i {
+     font-size: 20px;
+     margin-bottom: 20px;
+}
+hr {
+  border: none;
+  height: 2px;
+  background: black;
+  width: 100%;
+}
+.msg {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+    margin-bottom: 10px;
+    
+}
+.msg p {
+font: 2px;
+}
 #mid {
     margin: 50px 0px;
     width: 100%;
