@@ -181,7 +181,7 @@ html, body {
     flex-wrap: wrap;
 }
 .child {
-    height: 54vh;
+    height: 75vh;
     width: 38vw;
     position: relative;
     display: flex;
