@@ -181,7 +181,7 @@ html, body {
     flex-wrap: wrap;
 }
 .child {
-    height: 75vh;
+    height: 54vh;
     width: 38vw;
     position: relative;
     display: flex;
@@ -305,8 +305,7 @@ hr {
 .msg {
     display: flex;
     justify-content: space-between;
-    margin: 0 10px;
-    margin-bottom: 10px;
+    margin: -5px 10px;
     
 }
 .msg p {
@@ -333,6 +332,38 @@ font: 2px;
 #down h3 {
     font-size: 17px;
     font-weight: 50;
+}
+
+/* ----------------- Impact Page ------------ */
+.impact {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+.impact .impEle {
+    color: black;
+    height: 800px;    
+    width: 550px;
+    margin: 10px;
+}
+.impact .impEle p {
+    line-height: 25px;
+    font-size: larger;
+    font-weight: 100;
+}
+.impact .impEle h1 {
+    color: black;
+  font-weight:bolder;
+  margin-bottom: 30px;
+}
+.impact .impEle img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.impact #impfirst {
+    padding-right:180px;
 }
 /* --------------------------------- Responsive -------------------- */
 @media (max-width: 600px) {
