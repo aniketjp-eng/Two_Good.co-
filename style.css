@@ -459,3 +459,15 @@ font: 2px;
 .dets a {
    text-decoration: none;
 }
+
+/* ------------ Email --------------- */
+.email {
+    min-height: 100vh;
+    
+}
+.email h1 {
+    min-height: 100vh;
+    padding-top: 20px ;
+    font-size: 30px;
+    
+}
