@@ -471,3 +471,8 @@ font: 2px;
     font-size: 30px;
     
 }
+/* ---------------------- page 1_2  */
+.page12 {
+    background-color: antiquewhite;
+    min-height: 100vh;
+}
